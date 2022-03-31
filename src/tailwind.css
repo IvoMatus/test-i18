@@ -1,3 +1,97 @@
-.text-azul {
+
+.box{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+}
+
+.background-azul{
+    background-color:  #002758;
+}
+
+.background-logo{
+    background-color:  #bbd9ff;
+}
+
+.text-azul{
     color: #002758;
+}
+
+.bg-azul{
+    background-color: #002758;
+}
+
+.border-azul{
+    border-color: #002758;
+}
+
+.text-rojo{
+    color: #ff616d;
+}
+
+.bg-rojo{
+    background-color: #ff616d;
+}
+
+.border-dimensiones{
+    border-style: solid;
+    border-color: #002758;
+    border-width: 1px
+}
+
+.border-card-solicitud{
+    border-style: solid;
+    border-color: #002758;
+    border-width: 1px
+}
+
+.border-top-draw{
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 1px
+}
+
+.border-card-camion-slider{
+    border-style: solid;
+    border-color: #ff616d;
+    border-width: 1px
+}
+
+.border-1st-col-card{
+    border-right: 10px solid red;
+}
+
+.border-1st-option-oferta{
+    border-right: 10px solid #e53e3e;
+}
+
+.border-2nd-option-oferta{
+    border-right: 10px solid #002758;
+}
+
+.border-logo-drawer{
+    border-style: solid;
+    border-color: #002758;
+    border-width: 1px;
+    border-radius: 25px;
+}
+
+.close-modal{
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: 10px;
+    top: 0px;
+    font-size: 24px;
+    background:  #ffffff;
+    border-radius: 18px;
+    border: 1px solid #000;
+    color : #000
 }
